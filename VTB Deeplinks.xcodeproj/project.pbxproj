@@ -14,6 +14,7 @@
 		3B6D59952C80511E00B9451B /* VTB_DeeplinksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6D59942C80511E00B9451B /* VTB_DeeplinksTests.swift */; };
 		3B6D599F2C80511E00B9451B /* VTB_DeeplinksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6D599E2C80511E00B9451B /* VTB_DeeplinksUITests.swift */; };
 		3B6D59A12C80511E00B9451B /* VTB_DeeplinksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6D59A02C80511E00B9451B /* VTB_DeeplinksUITestsLaunchTests.swift */; };
+		3B6D59AE2C8051BD00B9451B /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6D59AD2C8051BD00B9451B /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B3E6B202C8052CA007513D8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3B6D597F2C80511C00B9451B /* VTB Deeplinks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VTB Deeplinks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B6D59822C80511C00B9451B /* VTB_DeeplinksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VTB_DeeplinksApp.swift; sourceTree = "<group>"; };
 		3B6D59842C80511C00B9451B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +47,7 @@
 		3B6D599A2C80511E00B9451B /* VTB DeeplinksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VTB DeeplinksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B6D599E2C80511E00B9451B /* VTB_DeeplinksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VTB_DeeplinksUITests.swift; sourceTree = "<group>"; };
 		3B6D59A02C80511E00B9451B /* VTB_DeeplinksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VTB_DeeplinksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3B6D59AD2C8051BD00B9451B /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,8 @@
 			children = (
 				3B6D59822C80511C00B9451B /* VTB_DeeplinksApp.swift */,
 				3B6D59842C80511C00B9451B /* ContentView.swift */,
+				3B3E6B202C8052CA007513D8 /* README.md */,
+				3B6D59AD2C8051BD00B9451B /* WebView.swift */,
 				3B6D59862C80511D00B9451B /* Assets.xcassets */,
 				3B6D59882C80511D00B9451B /* VTB_Deeplinks.entitlements */,
 				3B6D59892C80511D00B9451B /* Preview Content */,
@@ -259,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B6D59AE2C8051BD00B9451B /* WebView.swift in Sources */,
 				3B6D59852C80511C00B9451B /* ContentView.swift in Sources */,
 				3B6D59832C80511C00B9451B /* VTB_DeeplinksApp.swift in Sources */,
 			);
